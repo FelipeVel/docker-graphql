@@ -27,7 +27,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build --tag felipevel/docker-graphql:0.0.2 --platform linux/amd64,linux/arm64 .
+          docker build --tag felipevel/docker-graphql:0.0.2 .
 
       - name: Push Docker Image
         run: |
